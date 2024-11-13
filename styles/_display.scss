@@ -1,0 +1,13 @@
+/* Controle de tela */
+@media (max-width: 375px) {
+  .professional-profile {
+    max-width: 90%;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .professional-profile {
+    max-width: 700px;
+  }
+}
