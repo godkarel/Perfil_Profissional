@@ -8,14 +8,14 @@
   background-color: hsl(0, 0%, 30%);
   border: none;
   border-radius: 5px;
-  color: hsl(0, 0%, 95%);
+  color: $whitedefined;
   padding: 10px;
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .link-social a:hover {
-  background-color: hsl(75, 60%, 45%);
+  background-color: $grassdefined;
   color: hsl(0, 0%, 0%);
   font-weight: 700;
 }
