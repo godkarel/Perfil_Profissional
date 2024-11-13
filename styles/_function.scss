@@ -1,0 +1,13 @@
+// precisa de parametro
+@mixin font-style($color, $size, $weight: 400) {
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+  }
+
+// não precisa de parametro
+  @mixin center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

@@ -5,51 +5,42 @@
   padding: 0;
 }
 
-@import "./display";
+@import "./variable";
+@import "./function"; 
 @import "./linksocial";
 @import "./professional";
-@import "./variable";
+@import "./display";
 
 body {
-  align-items: center;
+  @include center-flex;
   background-color: hsl(210, 20%, 5%);
   color: $whitedefined;
-  display: flex;
   flex-direction: column;
   font-family: "Inter", sans-serif;
   font-size: 14px;
-  justify-content: center;
   min-height: 100vh;
 }
 
 .attribution {
-  color: $icedefined;
-  font-size: 11px;
+  @include font-style($icedefined, 11px);
   margin-top: 10px;
   text-align: center;
 }
 
-.attribution a {
-  color: hsl(210, 70%, 60%);
-}
-
 .description {
-  color: $icedefined;
-  font-weight: 400;
+  @include font-style($icedefined, 14px);
   line-height: 1.6;
   margin-bottom: 15px;
 }
 
 .location {
-  color: $grassdefined;
-  font-weight: 400;
+  @include font-style($grassdefined, 14px);
   margin-bottom: 15px;
 }
 
 .title {
-  color: $whitedefined;
-  font-size: 1.5rem;
-  font-weight: 700;
+  @include font-style($grassdefined, 1.5rem, 700);
   margin-bottom: 5px;
   margin-top: 10px;
+  
 }
