@@ -1,6 +1,6 @@
 // Importa o arquivo css
 // nao precisa importar o react dps da versão 17 do react pelo que parece
-import './ProfessionalProfile.css';
+import "./ProfessionalProfile.css";
 
 // o componente principal pra ser renderizado depois
 const ProfessionalProfile = () => {
@@ -13,12 +13,12 @@ const ProfessionalProfile = () => {
         src="./assets/images/avatar-jessica.jpeg"
         alt="Avatar de Jessica Randall"
         className="professional-image"
-      />      
-      <h1 className="title">Jessica Randall</h1> 
+      />
 
+      <h1 className="title">Jessica Randall</h1>
       <p className="location">Londres, Reino Unido</p>      
       <p className="description">Desenvolvedora frontEnd e leitora ávida.</p>
-      
+
       {/* os links */}
       <div className="link-social">
         <a href="https://github.com/seu_usuario" target="_blank">
